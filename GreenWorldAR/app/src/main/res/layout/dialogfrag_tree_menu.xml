@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/colorWhite">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/forestGreen"
+        app:contentInsetStart="0dp">
+
+        <ImageView
+            android:id="@+id/realtree_back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="?attr/actionBarItemBackground"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            app:srcCompat="@drawable/ic_white_cancel" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="fill"
+            android:paddingRight="16dp"
+            android:text="Plant an AR Tree"
+            android:textColor="@color/colorWhite"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/dividerColor" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/realtree_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"/>
+
+
+
+</LinearLayout>

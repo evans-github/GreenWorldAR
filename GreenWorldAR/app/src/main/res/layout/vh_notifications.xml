@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorWhite">
+
+    <ImageView
+        android:id="@+id/vh_notifications_image_preview"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignTop="@+id/vh_notifications_message_body"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0"/>
+
+    <ImageView
+        android:id="@+id/vh_fragmessages_moreicon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/icon_more_vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/vh_notifications_message_body"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+        android:textColor="@color/colorBlackFont"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintLeft_toRightOf="@+id/vh_notifications_image_preview"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/vh_notifications_image_preview"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/vh_notifications_posted_by"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="01234567890123456789aaa"
+        app:layout_constraintTop_toBottomOf="@+id/vh_notifications_message_body"
+        app:layout_constraintLeft_toLeftOf="@+id/vh_notifications_message_body"
+        app:layout_constraintRight_toLeftOf="@+id/vh_notifications_date_posted"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/hashTagBlue"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/vh_notifications_date_posted"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vh_notifications_message_body"
+        android:text=" • 18 hours ago"
+        app:layout_constraintTop_toBottomOf="@+id/vh_notifications_message_body"
+        app:layout_constraintLeft_toRightOf="@+id/vh_notifications_posted_by"
+        app:layout_constraintRight_toRightOf="@+id/vh_notifications_message_body"
+        android:maxLines="1"
+        android:ellipsize="end" />
+
+    <TextView
+        android:id="@+id/vh_notifications_contact_info"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/vh_notifications_posted_by"
+        app:layout_constraintLeft_toLeftOf="@+id/vh_notifications_message_body"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:paddingBottom="16dp"
+        android:layout_marginEnd="64dp"/>
+
+
+
+    <View
+        android:id="@+id/vh_notifications_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/dividerVertical"
+        android:layout_below="@+id/vh_notifications_date_posted"
+        app:layout_constraintTop_toBottomOf="@+id/vh_notifications_image_preview"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="1"/>
+
+    <TextView
+        android:id="@+id/vh_notifications_points"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+2000p"
+        android:textColor="@color/standardGreen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:textStyle="bold"
+        android:padding="6dp"
+        android:layout_centerVertical="true"
+        />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

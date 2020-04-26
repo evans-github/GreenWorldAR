@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "251488523743",
+    "firebase_url": "https://greenworldar-3a688.firebaseio.com",
+    "project_id": "greenworldar-3a688",
+    "storage_bucket": "greenworldar-3a688.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:251488523743:android:e30a7398418473372ae06a",
+        "android_client_info": {
+          "package_name": "e.com.greenworldar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "251488523743-1n1jf1hcr1ninvg38u4fu4q99spneodk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "e.com.greenworldar",
+            "certificate_hash": "6ae9a9263b29f3447b32b8053d4dc2ee29cfc350"
+          }
+        },
+        {
+          "client_id": "251488523743-h4gbvap7jtog4h9vfpn9371ornt2hinr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJUKCsN7BF-RkkmQgfnYQb099HzcMYHtA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "251488523743-h4gbvap7jtog4h9vfpn9371ornt2hinr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

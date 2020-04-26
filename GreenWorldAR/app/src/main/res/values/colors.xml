@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#42b1f3</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#42b1f3</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorGrey">#707070</color>
+    <color name="dividerColor">#1F000000</color>
+    <color name="settingsPressedColor">#0F000000</color>
+    <color name="colorGreenCheck">#00a100</color>
+    <color name="standardBlue">#42b1f3</color>
+    <color name="editTextColor">#f2f2f2</color>
+    <color name="defaultEditTextColor">#808080</color>
+    <color name="colorBlackFont">#333333</color>
+    <color name="hashTagBlue">#4267b2</color>
+    <color name="backgroundColor">#EEEEEE</color>
+    <color name="standardGreen">#008000</color>
+
+    <color name="appColor">#3F71AE</color>
+    <color name="yellowColor">#FFFF00</color>
+
+
+    <color name="defaultTextColor">#808080</color>
+
+    <!-- 65 percent opacity for the text in photo events viewpager -->
+    <color name="lightGrey">#A6FFFFFF</color>
+
+    <color name="defaultBackgroundColor">#FAFAFA</color>
+
+    <color name="transparentBackground">#00000000</color>
+
+    <color name="hyperlinkBlue">#0000EE</color>
+
+    <color name="flexboxBackground">#E6E6E6</color>
+
+    <color name="ripple_color">#EFEFEF</color>
+
+    <color name="frenchSkyBlue">#77B5FE</color>
+
+    <color name="sapphireBlue">#0F52BA</color>
+
+    <color name="steelBlue">#4682B4</color>
+
+    <color name="mainBackgroundColor">#1E1E1E</color>
+    <color name="toolbarColor">#272727</color>
+    <color name="redColor">#FF0000</color>
+
+    <color name="heartRed">#F13A59</color>
+
+    <color name="bottomNavigationColor">#FAFAFA</color>
+    <color name="inactiveIconColor">#c7c7c7</color>
+
+    <color name="transparentBlack">#40000000</color>
+
+    <color name="sandColor">#F5F5DC</color>
+
+    <color name="pointsBackgroundColor">#80000000</color>
+
+    <color name="moneyGreen">#85bb65</color>
+
+    <color name="forestGreen">#0B6623</color>
+
+    <color name="orangeColor">#F89A00</color>
+
+    <color name="mailbackGroundColor">#484452</color>
+
+    <color name="natGeoColor">#F4CF2B</color>
+
+</resources>

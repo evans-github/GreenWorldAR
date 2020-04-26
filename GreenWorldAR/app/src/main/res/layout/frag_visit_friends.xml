@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/colorWhite">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/toolbarColor"
+        app:contentInsetStart="0dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="fill"
+            android:paddingRight="16dp"
+            android:paddingLeft="16dp"
+            android:text="Friends using GreenworldAR"
+            android:textColor="@color/colorWhite"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/dividerColor" />
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/modelrv_following_image"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:background="@drawable/background_circle_friends_offline"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alice C."
+            android:textStyle="bold"
+            android:textColor="@color/colorBlackFont"
+            android:layout_toRightOf="@+id/modelrv_following_image"
+            android:layout_marginTop="26dp"
+            android:layout_marginStart="16dp"/>
+
+
+        <TextView
+            android:id="@+id/modelrv_following_button"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/follow_button_background_blue"
+            android:text="Visit Farm"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/colorWhite"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginRight="16dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:textSize="12dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="24dp"/>
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>
